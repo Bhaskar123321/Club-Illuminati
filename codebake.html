@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Illuminati Event-Code Bake</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="slideshow.css">
+
+</head>
+
+<body class="body">
+
+
+  <div class="w3-top" style="z-index:8;">
+    <div class="w3-bar w3-black w3-card" id="myNavbar">
+      <a href="cilluminati.html" class="w3-left illuminati">Illuminati</a>
+      <div class="w3-left w3-hide-medium w3-hide-small">
+        <a href="cilluminati.html" class="w3-bar-item w3-button nav-link"><i class="fa fa-home w3-large"></i><span class="navbar_content "> Home</span></a>
+        <a href="event.html" class="w3-bar-item w3-button nav-link active-nav"><i class="far fa-calendar-alt w3-large"></i><span class="navbar_content "> Events </span><i class="fas fa-caret-down"></i></a>
+        <a href="gallery.html" class="w3-bar-item w3-button nav-link"><i class="fas fa-images w3-large"></i><span class="navbar_content"> Gallery</span></a>
+        <a href="team.html" class="w3-bar-item w3-button nav-link"><i class="fas fa-users w3-large"></i><span class="navbar_content"> Our Team</span></a>
+        <a href="about.html" class="w3-bar-item w3-button nav-link"><i class="fa fa-building w3-large"></i><span class="navbar_content"> About Us</span></a>
+        <a href="contact.html" class="w3-bar-item w3-button nav-link contact-us-button"><i class="far fa-address-book w3-large"></i><span class="navbar_content"> Contact Us</span></a>
+      </div>
+      <div class="w3-right w3-hide-medium w3-hide-small">
+        <a href="prac.html" class="w3-bar-item nav-link login_button"><span class="navbar_content "> Login</span></a>
+      </div>
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-large" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <nav class="w3-sidebar w3-bar-block w3-card w3-white w3-animate-left w3-hide-large" style="display:none;" id="mySidebar">
+      <img src="logo.png" class="logo">
+      <a href="cilluminati.html" onclick="w3_close()" class="w3-bar-item w3-large w3-button w3-center sidebar-item" style="padding-top:165px;">Home</a>
+      <a href="event.html" onclick="w3_close()" class="w3-bar-item w3-large w3-button w3-center sidebar-item">Events</a>
+      <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-large w3-button w3-center sidebar-item">Gallery</a>
+      <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-large w3-button w3-center sidebar-item">Our Team</a>
+      <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-large w3-button w3-center sidebar-item">About Us</a>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding-8 sidebar-item w3-large" style="text-align:center!important;">Close <span class="fas fa-times w3-large"></span></a>
+    </nav>
+  </div>
+
+  <h1 class="multicolortext2">Track O Feet</h1>
+      <h1 class="multicolortext3">What it was?</h1>
+
+    <div class="w3-col w3-container" style="width:100%;height:270px;background-color:#EEE;">
+      <br>
+      <div style="margin-left: 20px;font-family: 'Open Sans', sans-serif;"> <p class="aboutusp">Club Illuminati was formed on November 2016 with an aim of lighting the lamp of education with the opportunity being provided no matter, hard work, determination
+      and consistency always plays an vital role among every individual. The flame in logo represents an outward growth to the students to be at the place where they are supposed to be at the place where they are supposed to be. <br> We believe in providing and
+    creating opportunity for every individual which in turns play a crucial part in the individual's life and to whom demands. It would be a kind of regret if we settle for something less in life when the world by its strength and other factor had made it easy for us to be remarkable <br><br> <b>CLUB ILLUMINATI'S objective "<i>The Enlightened Era</i>" has a significance in itself.</b><br>
+  <b>So, Let's get thogther with an aim of imparting knowledge and build a team whihc carries a smile of success.</b> </p></div>
+    </div>
+
+    <h2 class="multicolortext3">What its impact?</h2>
+
+    <div class="w3-col w3-container" style="width:100%;height:270px;background-color:#EEE;">
+      <br>
+      <div style="margin-left: 20px;font-family: 'Open Sans', sans-serif;"> <p class="aboutusp">Club Illuminati was formed on November 2016 with an aim of lighting the lamp of education with the opportunity being provided no matter, hard work, determination
+      and consistency always plays an vital role among every individual. The flame in logo represents an outward growth to the students to be at the place where they are supposed to be at the place where they are supposed to be. <br> We believe in providing and
+    creating opportunity for every individual which in turns play a crucial part in the individual's life and to whom demands. It would be a kind of regret if we settle for something less in life when the world by its strength and other factor had made it easy for us to be remarkable <br><br> <b>CLUB ILLUMINATI'S objective "<i>The Enlightened Era</i>" has a significance in itself.</b><br>
+  <b>So, Let's get thogther with an aim of imparting knowledge and build a team whihc carries a smile of success.</b> </p></div>
+    </div>
+
+    <h1 class="multicolortext2">Glimpse</h1>
+
+    <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="codebake/cd01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="codebake/cd02.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="codebake/cd03.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="codebake/cd04.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="codebake/cd09.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="codebake/cd10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="codebake/cd07.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="codebake/cd16.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="codebake/cd17.jpg" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <h1 class="multicolortext3">Winners</h1>
+
+
+  <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <p class="footer-links">
+          <a href="cilluminati.html" class="link-1">Home</a>
+
+          <a href="#">Blog</a>
+
+          <a href="event.html">Events</a>
+
+          <a href="about.html">About</a>
+
+          <a href="#">Faq</a>
+
+          <a href="contact.html">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Club Illuminat © 2016</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>144401 LPU</span> Phagwara, Punjab, India</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91-7009104743</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the club</span>
+          This is a technical club which mainly focus on all technical activities but we didn't bound oursleves we enahce ourselves in every area.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+
+
+  <script>
+    $(document).ready(function() {
+      var s3 = $('#div3').height();
+      var s4 = $('#div4').height();
+
+      if (s3 > s4)
+        $('#div3').css('min-height', s3 + "px");
+      else
+        $('#div4').css('min-height', s4 + "px");
+    });
+
+
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+      } else {
+        mySidebar.style.display = 'block';
+      }
+    }
+
+    function w3_close() {
+      mySidebar.style.display = "none";
+    }
+    $(document).ready(function() {
+      $(".w3-bar a,.w3-sidebar a,.learn, .learn-more,#myBtn,.icons1, footer a[href='#myPage']").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function() {
+            window.location.hash = hash;
+          });
+        }
+      });
+
+      $(window).scroll(function() {
+        $(".slideanim").each(function() {
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    });
+
+    function makeTimer() {
+
+      //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");
+      var endTime = new Date("19 January 2020 9:56:00 GMT+01:00");
+      endTime = (Date.parse(endTime) / 1000);
+
+      var now = new Date();
+      now = (Date.parse(now) / 1000);
+
+      var timeLeft = endTime - now;
+
+      var days = Math.floor(timeLeft / 86400);
+      var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+      var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+      var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+
+      if (hours < "10") {
+        hours = "0" + hours;
+      }
+      if (minutes < "10") {
+        minutes = "0" + minutes;
+      }
+      if (seconds < "10") {
+        seconds = "0" + seconds;
+      }
+
+      $("#days").html(days + "<span class='time'>Days</span>");
+      $("#hours").html(hours + "<span class='time'>Hours</span>");
+      $("#minutes").html(minutes + "<span class='time'>Minutes</span>");
+      $("#seconds").html(seconds + "<span class='time'>Seconds</span>");
+      $(".wrapper-1").html("<a href='prac.html' class='fancy-button pop-onhover bg-gradient3'><span>REGISTOR NOW</span></a>");
+    }
+
+    setInterval(function() {
+      makeTimer();
+    }, 1000);
+  </script>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+
+  </html>
